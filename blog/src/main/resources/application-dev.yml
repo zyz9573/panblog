@@ -1,0 +1,7 @@
+server:
+  port: 8080
+  servlet.context-path: /panblog
+basis:
+  name: 'Yingzhuo Zhang'
+  birth: '1995/07/03'
+  sex: 'Man'

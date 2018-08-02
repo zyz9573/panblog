@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/panblog
+    username: root
+    password: 950703
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/panblog
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true #show sql in console 
+  mvc:
+    view:
+      prefix: classpath:/templates/ #define where to find static file(.html)
+      suffix: .html
